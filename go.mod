@@ -17,7 +17,7 @@ require (
 	github.com/42wim/sshsig v0.0.0-20211121163825-841cf5bbc121
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
 	github.com/PuerkitoBio/goquery v1.9.1
-	github.com/alecthomas/chroma/v2 v2.13.0
+	github.com/alecthomas/chroma/v2 v2.5.0
 	github.com/blakesmith/ar v0.0.0-20190502131153-809d4375e1fb
 	github.com/blevesearch/bleve/v2 v2.4.2
 	github.com/buildkite/terminal-to-html/v3 v3.12.1
@@ -137,6 +137,8 @@ require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/ProtonMail/go-crypto v1.0.0 // indirect
 	github.com/RoaringBitmap/roaring v1.9.3 // indirect
+	github.com/alecthomas/assert/v2 v2.10.0 // indirect
+	github.com/alecthomas/repr v0.4.0 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
@@ -175,7 +177,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/davidmz/go-pageant v1.0.2 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/dlclark/regexp2 v1.11.0 // indirect
+	github.com/dlclark/regexp2 v1.11.4 // indirect
 	github.com/emersion/go-sasl v0.0.0-20231106173351-e73c9f7bad43 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
@@ -309,6 +311,8 @@ replace github.com/nektos/act => gitea.com/gitea/act v0.259.1
 
 // TODO: This could be removed after https://github.com/mholt/archiver/pull/396 merged
 replace github.com/mholt/archiver/v3 => github.com/anchore/archiver/v3 v3.5.2
+
+replace github.com/alecthomas/chroma/v2 => github.com/cakekindel/chroma/v2 v2.14.4
 
 exclude github.com/gofrs/uuid v3.2.0+incompatible
 
